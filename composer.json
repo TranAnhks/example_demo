@@ -1,0 +1,21 @@
+{
+    "name": "tuana/example_demo",
+    "description": "This demo",
+    "type": "library",
+    "require": {
+        "php": "^7.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tuan Anh",
+            "email": "tuananhksqt1997@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+	"autoload": {
+        "psr-4": {
+            "kynm\\Example\\": "src/"
+        }
+    }
+}
